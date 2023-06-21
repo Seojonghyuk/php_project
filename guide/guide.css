@@ -1,0 +1,41 @@
+:root {
+  --main-color: #9e9e9e;
+  --main-text: rgb(70, 61, 40);
+  --contact-text-color: rgb(101, 90, 66);
+  --contact-bar-color: #d1c4e9;
+  --footer-text: #bdbdbd;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto 6rem;
+  text-align: left;
+}
+#contact_box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+#contact_box div {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem 0 3rem;
+  color: var(--contact-text-color);
+}
+#contact_box span {
+  max-width: 600px;
+}
+h4 {
+  width: 9rem;
+  font-weight: 800;
+  color: var(--main-text);
+  border-right: 0.2rem solid var(--contact-bar-color);
+  margin-right: 0.5rem;
+}
+img{
+ 
+  margin: auto;
+  
+}
